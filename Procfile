@@ -1,1 +1,1 @@
-web: python app.py runserver
+web: flask translate compile; gunicorn tutoflask:app
